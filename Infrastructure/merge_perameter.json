@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_ZAMANCanadaCantral_name": {
+            "value": null
+        },
+        "serverfarms_ASP_ZAMANCanadaCantral_b537_externalid": {
+            "value": null
+        },
+        "databaseAccounts_zamandatabase_name": {
+            "value": null
+        },
+        "storageAccounts_zamanst_name": {
+            "value": null
+        }
+    }
+}
