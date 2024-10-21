@@ -30,7 +30,7 @@ jobs:
 
     - name: Run tests
       run: |
-        cd MyFunction/test
+        cd MyFunctions/test
         pytest
 
     - name: Azure Login
