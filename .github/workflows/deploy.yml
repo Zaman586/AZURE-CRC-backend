@@ -31,7 +31,7 @@ jobs:
     - name: Run tests
       run: |
         cd MyFunctions/test
-        python -m pytest
+        pytest
 
     - name: Azure Login
       uses: azure/login@v1
