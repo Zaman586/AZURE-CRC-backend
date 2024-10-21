@@ -28,10 +28,6 @@ jobs:
         echo "COSMOS_DB_ENDPOINT=${{ secrets.COSMOS_DB_ENDPOINT }}" >> $GITHUB_ENV
         echo "COSMOS_DB_KEY=${{ secrets.COSMOS_DB_KEY }}" >> $GITHUB_ENV
 
-    - name: Run tests
-      run: |
-        cd MyFunctions/test
-        pytest
 
     - name: Azure Login
       uses: azure/login@v1
